@@ -6,13 +6,13 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 15:10:39 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/20 18:56:34 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/21 18:27:07 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	search(char c, const char *str)
+static int	search(char c, char const *str)
 {
 	int	i;
 

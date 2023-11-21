@@ -6,7 +6,7 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 19:22:07 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/20 18:57:10 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/21 18:06:43 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 char				*ft_strnstr(const char *big, const char *little,
 						size_t len);
 int					ft_atoi(const char *str);
-void				*ft_calloc(size_t count, size_t size);
+void				*ft_calloc(size_t nmemb, size_t size);
 char				*ft_strdup(const char *s);
 
 // Part 2 - Additional functions

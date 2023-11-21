@@ -6,7 +6,7 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 18:25:30 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/20 20:24:51 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/21 17:28:38 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*p;
 
-	p = *lst;
 	if (lst == NULL || new == NULL)
 		return ;
+	p = *lst;
 	if (*lst)
 	{
 		p = ft_lstlast(p);

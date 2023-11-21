@@ -6,12 +6,11 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 18:30:13 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/20 11:19:25 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/21 18:34:28 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {

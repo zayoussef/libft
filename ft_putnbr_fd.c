@@ -6,7 +6,7 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 15:12:50 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/17 11:40:41 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/21 18:15:30 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,17 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	long int	nbr;
+	long	nb;
 
-	nbr = n;
-	if (n < 0)
+	nb = n;
+	if (fd < 0)
+		return ;
+	if (nb < 0)
 	{
 		ft_putchar_fd('-', fd);
-		nbr *= -1;
+		nb = -nb;
 	}
-	if (nbr < 10)
-		ft_putchar_fd(nbr + '0', fd);
-	else
-	{
-		ft_putnbr_fd(nbr / 10, fd);
-		ft_putnbr_fd(nbr % 10, fd);
-	}
+	if (nb >= 10)
+		ft_putnbr_fd(nb / 10, fd);
+	ft_putchar_fd((nb % 10) + '0', fd);
 }

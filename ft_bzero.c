@@ -6,12 +6,11 @@
 /*   By: yozainan <yozainan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 17:46:11 by yozainan          #+#    #+#             */
-/*   Updated: 2023/11/20 18:33:49 by yozainan         ###   ########.fr       */
+/*   Updated: 2023/11/20 21:50:52 by yozainan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <libft.h>
-#include <stddef.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
