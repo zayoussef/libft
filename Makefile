@@ -32,7 +32,7 @@ bonus : $(OBONUS)
 	
 .c.o:
 	$(CC) $(CFLAGS) -c $< -o $@
-	ar -crs $(NAME) $@
+	@ar -crs $(NAME) $@
 
 clean:
 	rm -f $(OBONUS) $(OBJ)
